@@ -1,0 +1,26 @@
+using System;
+
+namespace Estudo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var s2 = "Larissa";
+
+            var d = true;
+            var b2 = false;
+
+            double d2 = 1.5f;
+
+            bool teste = bool.Parse(false);
+            bool teste2 = Convert.ToBoolean("false");
+
+            //Convert(conversor)
+
+            Animal a = new Animal();
+
+            Console.WriteLine(s2);
+            Console.WriteLine(d2);
+        }
+    }
