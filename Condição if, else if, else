@@ -1,0 +1,33 @@
+using System;
+
+namespace Estudo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a;
+
+            Console.ReadLine();
+
+            /*Roda o programa ai pra eu ver uma coisa*/
+
+            if ( a == 1)
+            {
+                Console.WriteLine("Entrou na condição do If");
+            }
+
+            else if (a == 2)
+            {
+                Console.WriteLine("Deu ruim zapaziada");
+            }
+
+            else
+            {
+                Console.WriteLine("Que poha de numero e esse crl");
+            }
+
+            
+        }
+    }
+}
