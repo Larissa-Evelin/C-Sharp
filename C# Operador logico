@@ -1,0 +1,25 @@
+using System;
+
+namespace Estudo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var a = 1;
+            String teste = "Larissa";
+
+            if(a == 1)
+            {
+                teste = "O valor de a";
+            }
+            else
+            {
+                teste = "O valor de outros numeros";
+            }
+            Console.WriteLine("Fala rapaziada " + teste);
+            Console.Read();
+
+        }
+    }
+}
