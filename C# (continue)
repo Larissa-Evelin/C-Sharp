@@ -1,0 +1,28 @@
+using System;
+
+namespace Estudo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int a = 1 ;
+            
+
+
+            while(a <= 10)
+            {
+                if(a == 1)
+                {
+                    a++;
+                    continue;
+                }
+                Console.WriteLine(a);
+                a++;
+            }
+           
+
+        }
+    }
+}
