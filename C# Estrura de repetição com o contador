@@ -1,0 +1,27 @@
+using System;
+
+namespace Estudo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int a = 1;
+            int contador;
+
+            while(a < 5)
+            {
+                Console.WriteLine("testando");
+                a++;
+                
+            }
+            
+
+  
+            Console.WriteLine("Fala rapaziada: " + a);
+            Console.Read();
+
+        }
+    }
+}
