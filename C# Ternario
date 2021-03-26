@@ -1,0 +1,16 @@
+using System;
+
+namespace Estudo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var a;
+            String teste = (a == 1 ? "Rapaziada jente boa" : "tente novamente meu chara");
+
+            
+
+  
+            Console.WriteLine("Fala rapaziada: " + teste);
+            Console.Read();
