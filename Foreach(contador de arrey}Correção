@@ -1,0 +1,21 @@
+using System;
+
+namespace teste
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] z = { 0, 1, 2, 3 }; //contador de arrey usando o foraech
+            foreach(int v in z)
+            { 
+            Console.WriteLine(v);
+            }
+        
+           for(int b = 0; b < z.Length; b++) //contador de arrey usando o for
+           {
+           Console.WriteLine(z[b]);
+           }
+    }
+}
+}
