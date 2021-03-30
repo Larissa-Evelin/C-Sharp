@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+
+
+
+
+namespace teste
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<string> a = new List<string>();
+
+            a.Add ("Larissa");
+            a.Add ("Maranhase");
+            a.Add ("Evelin");
+
+            if (a.Exists(e => e == "Larissa")) //variavel 'e'se a mesma for igual informa o resultado
+            {
+                Console.WriteLine("Nome encontrado" );
+            }
+
+        }
+
+        //int size_list = a.Caunt;
+        }
+    }
+
+
